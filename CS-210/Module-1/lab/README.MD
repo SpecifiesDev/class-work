@@ -8,12 +8,10 @@ cout << fixed << setprecision(2); once before all other cout statements.
 
 ## Example Output
 If the input is: 
-```
-20.0 3.1599```
+```20.0 3.1599```
 
 The program should output
-```3.16 11.85 79.00
-``` 
+```3.16 11.85 79.00``` 
 as cost per gallon for each mileage indicator.
 
 ## The Solution
