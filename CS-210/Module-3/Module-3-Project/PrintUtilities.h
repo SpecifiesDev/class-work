@@ -4,6 +4,6 @@
 using namespace std;
 
 void DisplayOptions();
-void DisplayTime(const vector<int>& _12HourClock, const vector<int>& _24HourClock, string timeString);
+void DisplayTime(const vector<string>& _12HourClock, const vector<string>& _24HourClock, string timeString);
 
 #endif
