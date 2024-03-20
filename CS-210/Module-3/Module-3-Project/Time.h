@@ -27,13 +27,14 @@ class _12HourClock : public Time {
 		_12HourClock(int h, int m, int s) {
 			hours = h;
 			minutes = m;
-			seconds = h;
+			seconds = s;
 			ampm = AM;
 		}
 		void addHour();
 		void addMinute();
 		void addSecond();
 		vector<int> getTime();
+		string getTimeString();
 
 };
 
@@ -43,7 +44,7 @@ class _24HourClock : public Time {
 		_24HourClock(int h, int m, int s) {
 			hours = h;
 			minutes = m;
-			seconds = h;
+			seconds = s;
 		}
 		void addHour();
 		void addMinute();

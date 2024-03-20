@@ -22,10 +22,6 @@ using namespace std;
 #include "Time.h";
 #include "PrintUtilities.h"
 
-void DisplayTime(const vector<int>& _12HourClock, const vector<int>& _24HourClock) {
-
-}
-
 // primary program entrypoint
 int main() {
 
@@ -33,13 +29,15 @@ int main() {
 	bool input = true;
 
 	// start our 12 hour clock at exactly 11:59:59 AM
-	_12HourClock _12_hour_clock(11, 59, 59);
+	_12HourClock _12_hour_clock(11, 59, 58);
 
-	// start our 24 hour clock at exactly 23:59:59
-	_24HourClock _24_hour_clock(23, 59, 59);
+	// start our 24 hour clock at exactly 11:59:59
+	_24HourClock _24_hour_clock(11, 59, 59);
 
 	// display the intial time
-	//DisplayTime(_12_hour_clock.getTime(), _24_hour_clock.getTime());
+	DisplayTime(_12_hour_clock.getTime(), _24_hour_clock.getTime(), _12_hour_clock.getTimeString());
+
+	
 
 	// begin our input loop
 	while (input) {

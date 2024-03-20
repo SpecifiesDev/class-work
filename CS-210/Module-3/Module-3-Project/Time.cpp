@@ -5,11 +5,15 @@ using namespace std;
 
 #include "Time.h";
 
+string _12HourClock::getTimeString() {
+	return ampm == AM ? "A M" : "P M";
+}
+
 void _12HourClock::addHour() {
 
-	// this is the 12 hour clock. if the hour is 11 we should cycle hour back and switch the 
+	// this is the 12 hour clock. if the hour is 12 we should cycle hour back and switch the 
 	// time declarator
-	if (hours == 11) {
+	if (hours == 12) {
 
 		// set hours to 0;
 		hours = 0;
@@ -27,6 +31,8 @@ void _12HourClock::addHour() {
 	}
 
 }
+
+
 
 void _12HourClock::addMinute() {
 
