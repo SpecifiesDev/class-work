@@ -1,7 +1,5 @@
 # Project Name
 Chada Tech Time Clock
-CS-210 Project 1
-March 19, 2024.
 
 ## Description
 
