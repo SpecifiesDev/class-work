@@ -9,7 +9,7 @@ If the input is:
 
 
 The program should output
-```Total cost\nChocolate Chips 1 @ $3 = $3\nBottled Water 10 @ $1 = $10\n\nTotal: $13```
+```Total cost Chocolate Chips 1 @ $3 = $3 Bottled Water 10 @ $1 = $10  Total: $13```
 
 ## The Solution
 Create the necessary header and cpp files to perform the function the lab requries.
