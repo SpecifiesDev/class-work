@@ -1,4 +1,4 @@
-# Module-3 Lab
+# Module-4 Lab
 
 ## The Problem
 Build the ItemToPurchase class with the following specifications: default constructor, setter and getter, and private data members. Setter and getter will edit itemName, itemPrice, and itemQuantity. They are intialized by edefault of "none" and 0.
