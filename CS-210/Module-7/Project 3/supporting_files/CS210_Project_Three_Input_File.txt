@@ -1,0 +1,10 @@
+Spinach 5
+Radishes 7
+Broccoli 2
+Peas 3
+Cranberries 2
+Broccoli 4
+Potatoes 5
+Cucumbers 3
+Peaches 3
+Zucchini 4
