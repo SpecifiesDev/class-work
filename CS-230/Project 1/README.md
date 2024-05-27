@@ -1,0 +1,2 @@
+# Project 1
+In this project, we had a milestone in which we created the baseline code for the project. In the actual project, we were given design paramaters. We were to take the intial classes of Game, Team, and Player and make them inherent a new Entity class. They should also have unique identifiers that are iterated on object creation. When an object is created, we were to use an iterator to check if an object already existed. I have uploaded both the original milestone work, and the final work.
